@@ -1,35 +1,23 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!DOCTYPE html>
 <html>
 <head>
-  <title>My first styled page</title>
-  <link rel="stylesheet" href="mystyle.css">
+  <meta charset="utf-8">
+  <title>Puzzle</title>
+  <script src="script.js"></script>
+  <style type="text/css">
+  body{
+    margin:20px;
+  }
+  </style>
 </head>
-
 <body>
-
-<!-- Site navigation menu -->
-<ul class="navbar">
-  <li><a href="http://baidu.com">Home page</a>
-  <li><a href="musings.html">Musings</a>
-  <li><a href="town.html">My town</a>
-  <li><a href="links.html">Links</a>
-</ul>
-
-<!-- Main content -->
-<h1>My first styled page</h1>
-
-<p>Welcome to my styled page!
-
-<p>It lacks images, but at least it has style.
-And it has links, even if they don't go
-anywhere&hellip;
-
-<p>There should be more here, but I don't know
-what yet.
-
-<!-- Sign and date the page, it's only polite! -->
-<address>Made 5 April 2004<br>
-  by myself.</address>
-
+  <h1 style="background-color:Olive;text-align:Center">看图猜成语~</h1>
+<div class="container" align="center">
+  <img src="pics/puzzlegood.jpg"
+  width="300"
+  height="300">
+<p>看上边这张图！成语！四个字！猜吧！</p>
+  <button  id="googgoog" onclick="inPut()">点我！不然你上哪输答案！</button>
+  <button  onclick="hint()" >点我！可以作弊！</button>
 </body>
 </html>
